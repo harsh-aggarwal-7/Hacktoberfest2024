@@ -1,0 +1,13 @@
+import requests
+
+def get_weather(city_name, api_key):
+    """
+    Fetches weather data for the specified city using OpenWeatherMap API.
+    
+    Args:
+        city_name (str): The name of the city to fetch weather for.
+        api_key (str): Your OpenWeatherMap API key.
+    
+    Returns:
+        dict: Weather data or an error message if the request fails.
+    """
